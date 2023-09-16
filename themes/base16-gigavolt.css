@@ -1,0 +1,84 @@
+code[class*="language-"],
+pre[class*="language-"] {
+	background-color: #2d303d;
+	color: #e9e7e1;
+}
+
+.token.comment,
+.token.prolog,
+.token.cdata {
+	color: #a1d2e6;
+}
+
+.token.delimiter,
+.token.boolean,
+.token.keyword,
+.token.selector,
+.token.important,
+.token.atrule {
+	color: #ff661a;
+}
+
+.token.operator,
+.token.punctuation,
+.token.attr-name {
+	color: #a1d2e6;
+}
+
+.token.tag,
+.token.tag .punctuation,
+.token.doctype,
+.token.builtin {
+	color: #ffdc2d;
+}
+
+.token.entity,
+.token.number,
+.token.symbol {
+	color: #ae94f9;
+}
+
+.token.property,
+.token.constant,
+.token.variable {
+	color: #ff661a;
+}
+
+.token.string,
+.token.char {
+	color: #f2e6a9;
+}
+
+.token.attr-value,
+.token.attr-value .punctuation {
+	color: #a1d2e6;
+}
+
+.token.url {
+	color: #f2e6a9;
+	text-decoration: underline;
+}
+
+.token.function {
+	color: #ffdc2d;
+}
+
+.token.regex {
+	background: #f2e6a9;
+}
+
+.token.bold {
+	font-weight: bold;
+}
+
+.token.italic {
+	font-style: italic;
+}
+
+.token.inserted {
+	background: #a1d2e6;
+}
+
+.token.deleted {
+	background: #ff661a;
+}
